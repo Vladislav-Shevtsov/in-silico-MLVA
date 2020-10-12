@@ -1,4 +1,4 @@
-# in-silico-MLVA
+# Search for primers in reads
 bbduk_search_for_primers.py README
 
 ### Dependencies ###
