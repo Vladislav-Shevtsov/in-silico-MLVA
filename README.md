@@ -18,8 +18,9 @@ Alternatevely, can be installed locally by downloading the source code from:
 
 search-primers-in-reads.py is a script with use of python language designed to automate the process of search primer sequences in reads.
 
-This script use a list of primers in .txt file to extract only reads with located primers on both sides of the reads.
+This script use a list of primers in .txt file to extract only reads with located primers on both sides of the reads. 
 
+![bbduk_search](https://user-images.githubusercontent.com/22825915/107497670-0ca40980-6bbd-11eb-9442-d05af2460644.jpg)
 
 ### input ###
 
@@ -32,20 +33,25 @@ primers format : primers name must be written as shown below in primers_file :
 
 example : 530-insilico_3bp_46bp_2u	TAGCAGTGATACAACTTCGC	ATTAGCAGCAGGTGTACTAGATGGTCTCAATG
 
+Note: It is important to make sure that you are using tab(\t) as space delimiter 
 
 ### output ### 
 
 output represents files(reads) with .fastq extension which include reads containing primers on both sides of the read.    
 
 ### command line examples ###
+By default search-primers-in-reads.py recieve 3 arguments: path to input directory, path to output directory and path to file with primers.
 
-The following command will generate .sh bash file:
+The following command structure will generate .sh bash file:
+
 python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/primers.txt]  //to generate the bash file 
 
-The following command will execute .sh bash file:
- ./bbduk_search_primers.sh	//this will run primer search
+python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt
+
+The following command will execute generated bbduk_search_primers.sh bash file:
+ ./bbduk_search_primers.sh
 
 By default 2 mismatches allowed but can be modified in the code by changing the value of mm, for example mm=3.
 
-![Search_for_primers](https://user-images.githubusercontent.com/22825915/107493966-681fc880-6bb8-11eb-9980-6f052a15183c.jpg)
+
 #written by Shevtsov V.
