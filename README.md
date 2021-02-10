@@ -16,9 +16,9 @@ Alternatevely, can be installed locally by downloading the source code from:
 
 ### goal ###
 
-bbduk_search.py is a bash script with use of python language designed to automate the process of search sequences in reads.
+search-primers-in-reads.py is a script with use of python language designed to automate the process of search primer sequences in reads.
 
-This script use a list of primers in .txt file to recover reads with listed primers on both sides of the reads.
+This script use a list of primers in .txt file to extract only reads with located primers on both sides of the reads.
 
 
 ### input ###
@@ -39,14 +39,13 @@ output represents files(reads) with .fastq extension which include reads contain
 
 ### command line examples ###
 
-python3.6 [/path/to]/bbduk_search.py //to generate the bash file 
+The following command will generate .sh bash file:
+python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/primers.txt]  //to generate the bash file 
 
-bash bbduk_search.sh	//to run bbduk_search
-
-
-#with different number of mismatch allowed :
+The following command will execute .sh bash file:
+ ./bbduk_search_primers.sh	//this will run primer search
 
 By default 2 mismatches allowed but can be modified in the code by changing the value of mm, for example mm=3.
 
 
-#written by V.Shevtsov
+#written by Shevtsov V.
