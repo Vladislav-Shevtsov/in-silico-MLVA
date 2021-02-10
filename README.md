@@ -20,7 +20,7 @@ search-primers-in-reads.py is a script with use of python language designed to a
 
 This script use a list of primers in .txt file to extract only reads with located primers on both sides of the reads. 
 
-![bbduk_search](https://user-images.githubusercontent.com/22825915/107497670-0ca40980-6bbd-11eb-9442-d05af2460644.jpg)
+![bbduklll](https://user-images.githubusercontent.com/22825915/107500962-fb5cfc00-6bc0-11eb-9887-c1efa8dd4dfa.jpg)
 
 ### input ###
 
