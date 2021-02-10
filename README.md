@@ -47,5 +47,5 @@ The following command will execute .sh bash file:
 
 By default 2 mismatches allowed but can be modified in the code by changing the value of mm, for example mm=3.
 
-
+![Search_for_primers](https://user-images.githubusercontent.com/22825915/107493966-681fc880-6bb8-11eb-9980-6f052a15183c.jpg)
 #written by Shevtsov V.
