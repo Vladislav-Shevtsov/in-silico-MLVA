@@ -33,7 +33,7 @@ primers format : primers name must be written as shown below in primers_file :
 
 example : 530-insilico_3bp_46bp_2u	TAGCAGTGATACAACTTCGC	ATTAGCAGCAGGTGTACTAGATGGTCTCAATG
 
-Note: It is important to make sure that you are using tab(\t) as space delimiter 
+Note: It is important to make sure that you are using tab(\t) as space delimiter in Primer.txt file
 
 ### output ### 
 
