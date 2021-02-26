@@ -54,4 +54,7 @@ The following command will execute generated bbduk_search_primers.sh bash file:
 By default 2 mismatches allowed but can be modified in the code by changing the value of mm, for example mm=3.
 
 # Users can use and share the code freely
+
+#For any questions please open issue on github or email me at shevtsovvladislav111@gmail.com
+
 #written by Shevtsov V.
