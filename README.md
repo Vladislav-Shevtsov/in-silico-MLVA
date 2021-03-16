@@ -21,7 +21,7 @@ search-primers-in-reads.py is a python3 script allowing to identify in a sequenc
 
 
 ### input ###
-![107500962-fb5cfc00-6bc0-11eb-9887-c1efa8dd4dfa](https://user-images.githubusercontent.com/22825915/109280747-9b638800-7845-11eb-8a12-faec2333146b.jpg)
+![searchforprimerspsd](https://user-images.githubusercontent.com/22825915/111267459-23270000-8656-11eb-880a-0705bd56d04d.jpg)
 input file with primers should have .txt extension 
 
 example : primers_file.txt
