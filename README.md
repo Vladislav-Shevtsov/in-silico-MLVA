@@ -37,7 +37,7 @@ Note: use tab(\t) as delimiter in Primers.txt
 
 ### output ### 
 
-output represents files(reads) with .fastq extension which include reads containing primers on both sides of the read.    
+One file containing all reads in which one of the primer pairs listed in the Primers.txt is present (see Figure).  
 
 ### command line examples ###
 By default search-primers-in-reads.py receive 3 arguments: path to input directory, path to output directory and path to file with primers.
