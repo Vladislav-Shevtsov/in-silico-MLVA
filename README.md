@@ -51,7 +51,7 @@ python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt
 The following command will execute generated bbduk_search_primers.sh bash file:
  ./bbduk_search_primers.sh
 
-By default 2 mismatches allowed but can be modified in the code by changing the value of mm, for example mm=3.
+By default 2 mismatches allowed but can be modified in the code by changing the value of hdist, for example hdist=3.
 
 # Users can use and share the code freely
 
