@@ -5,6 +5,7 @@ bbduk_search_for_primers.py README
 
 python3
 python-dev (sudo apt-get install python-dev), 
+
 bbduk.sh (can be installed using the conda comand)
 		
 		conda install -c bioconda/label/cf201901 bbmap 
