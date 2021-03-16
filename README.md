@@ -29,7 +29,7 @@ example : primers_file.txt
 primers format : primers name must be written as shown below in primers_file :
 <primer_name>	<forward_primer>	<reverse_primer>
 
-example: 530-insilico_3bp_46bp_2u	TAGCAGTGATACAACTTCGC	ATTAGCAGCAGGTGTACTAGATGGTCTCAATG
+example: Ft-M22_6bp_73bp_2u	CTGCTATATTTAGACAAAGTGA	TCTGAAAGTGCTTGTTGTTGAT
 
 Note: use tab(\t) as delimiter in Primers.txt
 
