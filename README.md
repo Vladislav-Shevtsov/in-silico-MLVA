@@ -25,9 +25,9 @@ search-primers-in-reads.py is a python3 script allowing to identify in a sequenc
 
 input file with primers should have .txt extension 
 
-example : primers_file.txt
+example: Primers.txt file
 
-primers format : primers name must be written as shown below in primers_file :
+primers format: primers name must be written as shown below in Primers.txt file:
 <primer_name>	<forward_primer>	<reverse_primer>
 
 example: Ft-M22_6bp_73bp_2u	CTGCTATATTTAGACAAAGTGA	TCTGAAAGTGCTTGTTGTTGAT
@@ -43,7 +43,7 @@ By default search-primers-in-reads.py receive 3 arguments: path to input directo
 
 The following command structure will generate .sh bash file:
 
-python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/primers.txt]  //to generate the bash file 
+python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/Primers.txt]  //to generate the bash file 
 
 python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt
 
