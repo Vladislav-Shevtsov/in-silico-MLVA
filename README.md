@@ -44,12 +44,12 @@ By default search-primers-in-reads.py receive 3 arguments: path to input directo
 
 The following command structure will generate .sh bash file:
 
-python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/Primers.txt]  //to generate the bash file 
-
-python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt
+```python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/Primers.txt]```  
+Example:
+```python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt```#This will generate the bash file 
 
 The following command will execute generated bbduk_search_primers.sh bash file:
- ./bbduk_search_primers.sh
+``` ./bbduk_search_primers.sh``` #This will run bash file
 
 By default 2 mismatches allowed but can be modified in the code by changing the value of hdist, for example hdist=3.
 
