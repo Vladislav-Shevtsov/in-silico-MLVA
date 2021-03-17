@@ -38,7 +38,12 @@ Note: use tab(\t) as delimiter in Primers.txt
 ### output ### 
 * Script "search-primers-in-reads.py" will produce one fastq file format for each fastq.gz input file and each primer pair listed in Primers.txt.
 
-* Script "Fastq_to_fasta.py" https://github.com/Vladislav-Shevtsov/Fastq-to-fasta- will convert all fastq files associated with each fastq.gz input in a single file containing all reads for all primer pairs, in fasta format.
+* Script "Fastq_to_fasta.py" https://github.com/Vladislav-Shevtsov/Fastq-to-fasta- will convert all fastq files associated with each fastq.gz input into files containing all reads for all primer pairs, in fasta format.
+
+* Script "Sort-files-by-pattern" https://github.com/Vladislav-Shevtsov/Sort-files-by-pattern  will help with fasta files sorting to folders corresponding name of the loci
+
+* Script "Fa_to_one" https://github.com/Vladislav-Shevtsov/Fa_to_one will combine all loci in a single fasta file located in folders 
+
 
 ### command line examples ###
 By default search-primers-in-reads.py receive 3 arguments: path to input directory, path to output directory and path to file with primers.
