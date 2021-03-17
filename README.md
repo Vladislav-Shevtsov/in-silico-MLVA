@@ -52,6 +52,7 @@ The following command structure will generate .sh bash file:
 
 ```python3 search-primers-in-reads.py [path/to/input.gz] [path/to/output/folder] [path/to/Primers.txt]```  
 Example:
+
 ```python3 search-primers-in-reads.py ./input_data ./output_data Primers.txt```#This will generate the bash file 
 
 The following command will execute generated bbduk_search_primers.sh bash file:
