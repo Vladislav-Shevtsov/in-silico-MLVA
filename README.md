@@ -36,8 +36,9 @@ example: Ft-M22_6bp_73bp_2u	CTGCTATATTTAGACAAAGTGA	TCTGAAAGTGCTTGTTGTTGAT
 Note: use tab(\t) as delimiter in Primers.txt
 
 ### output ### 
+* Script "search-primers-in-reads.py" will produce one fastq file format for each fastq.gz input file and each primer pair listed in Primers.txt.
 
-One file containing all reads in which one of the primer pairs listed in the Primers.txt is present (see Figure).  
+* Script "Fastq_to_fasta.py" https://github.com/Vladislav-Shevtsov/Fastq-to-fasta- will convert all fastq files associated with each fastq.gz input in a single file containing all reads for all primer pairs, in fasta format.
 
 ### command line examples ###
 By default search-primers-in-reads.py receive 3 arguments: path to input directory, path to output directory and path to file with primers.
